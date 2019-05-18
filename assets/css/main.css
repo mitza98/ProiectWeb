@@ -15,20 +15,40 @@ body {
     font-family: 'Roboto' ,Arial, Helvetica, sans-serif;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
 /*Header*/
 
 .header {
-    background-color: #333;
+    background-color: #0D1321;
+}
+
+.header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .header__link , .navigation__link {
-    color: white;
+    color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     font-size: 28px;
-    padding: 20px 0 20px 40px;
+    padding: 20px 0;
+    transition: color 0.25s ease-in;
+}
+
+.header__link:hover , .navigation__link:hover {
+    color: rgb(239, 191, 66);
 }
 
 .header__logo {
@@ -45,12 +65,14 @@ body {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    padding-right: 40px;
 }
 
 .navigation__item {
-   
+   margin-right: 20px;
 
+}
+.navigation__item:last-of-type {
+    margin-right: 0;
 }
 
 .navigation__link {
@@ -59,8 +81,37 @@ body {
 }
 
 /*Index*/
+/*Hero*/
+.hero {
+    min-height: 90vh;
+    background: url("../images/hero-min.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero__details {
+    
+}
+
+.hero__intro {
+
+}
+
+
+/*LogIn*/
 
 /*Signup*/
 
 /*Footer*/
+.footer {
+    background-color: #0D1321;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.footer__copy {
+    color: white;
+
+}
