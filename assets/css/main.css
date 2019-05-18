@@ -25,6 +25,11 @@ a {
     margin: 0 auto;
 }
 
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 
 /*Header*/
@@ -186,4 +191,39 @@ a {
 .footer__copy {
     color: white;
 
+}
+
+/*Sidebar*/
+
+.sidebar{
+    background-color: #0D1321;
+    width: 15%;
+    height: 90vh;
+}
+
+.test {
+    width: 85%;
+}
+
+.sidebar__intro {
+    font-size: 18px;
+    color: #0a990a;
+    font-weight: bold;
+    padding-top:40px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.sidebar__list{
+    text-align: center;
+}
+
+.sidebar__link{
+
+}
+
+.sidebar__item{
+    margin-bottom: 20px;
+    text-transform: uppercase;
 }
