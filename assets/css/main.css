@@ -83,24 +83,96 @@ a {
 /*Index*/
 /*Hero*/
 .hero {
-    min-height: 90vh;
     background: url("../images/hero-min.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.hero__container {
+    display: flex;
+    min-height: 90vh;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 .hero__details {
-    
+    margin-right: 160px;
 }
 
 .hero__intro {
-
+    font-size: 128px;
+    text-align: right;
+    line-height: 0.9;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
 }
 
 
 /*LogIn*/
 
+.login__form, .signup__form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.login__input, .login__btn, .signup__input, .signup__btn {
+    width:250px;
+    padding: 8px 0 8px 10px;
+    margin: 0 auto;
+    margin-bottom:10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border-color: transparent;
+    cursor: pointer;
+
+}
+
+.login__input {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.login__input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.login__btn, .signup__btn {
+    padding: 8px 0;
+    background-color:#0a990a; 
+    color: white;
+    transition: all 0.25s ease-in-out;
+}
+
+.login__btn:hover, .btn-signup:hover {
+    filter: brightness(120%);
+}
+
+
+
 /*Signup*/
+
+
+.signup__form {
+    margin: 40px 0;
+}
+
+.signup__intro {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+.signup__input {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    margin-bottom: 16px;
+}
+
+.btn-signup {
+    background-color: #0D1321;
+    transition: all 0.25s ease-in-out;
+}
+
+
 
 /*Footer*/
 .footer {
