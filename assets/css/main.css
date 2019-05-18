@@ -1,0 +1,66 @@
+/*Global Styles*/
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto' ,Arial, Helvetica, sans-serif;
+}
+
+/*Header*/
+
+.header {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__link , .navigation__link {
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    padding: 20px 0 20px 40px;
+}
+
+.header__logo {
+
+}
+
+.navigation {
+    
+
+
+}
+
+.navigation__list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-right: 40px;
+}
+
+.navigation__item {
+   
+
+}
+
+.navigation__link {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/*Index*/
+
+/*Signup*/
+
+/*Footer*/
+
